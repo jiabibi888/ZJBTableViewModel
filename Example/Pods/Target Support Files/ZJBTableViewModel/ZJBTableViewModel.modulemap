@@ -1,0 +1,6 @@
+framework module ZJBTableViewModel {
+  umbrella header "ZJBTableViewModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
