@@ -1,14 +1,22 @@
 //
 //  ZJBTableViewModel.h
-//  Jabir
+//  ZJBTableViewModel
 //
-//  Created by zjb on 16/11/8.
-//  Copyright © 2016年 wyj. All rights reserved.
+//  Created by Jabir-Zhang on 2020/1/14.
+//  Copyright © 2020 ZJBTableViewModel. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "ZJBTableViewSectionModel.h"
+//! Project version number for ZJBTableViewModel.
+FOUNDATION_EXPORT double ZJBTableViewModelVersionNumber;
+
+//! Project version string for ZJBTableViewModel.
+FOUNDATION_EXPORT const unsigned char ZJBTableViewModelVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <ZJBTableViewModel/PublicHeader.h>
+
+#import <ZJBTableViewModel/ZJBTableViewSectionModel.h>
 typedef void (^ZJBTableViewScrollerViewBlock)(UIScrollView *scrollView);
 typedef UIView * (^ZJBTableViewScrollerViewZoomingViewBlock)(UIScrollView *scrollView);
 typedef void (^ZJBTableViewScrollerViewDraggingBlock)(UIScrollView *scrollView, BOOL decelerate );
@@ -43,3 +51,5 @@ typedef void (^ZJBTableViewWillDisplayHeaderViewBlock)(UITableView *tableView, U
 @property (nonatomic, copy) ZJBTableViewWillDisplayHeaderViewBlock willDisplayHeaderViewBlock;    // optional
 
 @end
+
+
