@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJBTableViewModel'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'TableViewModel方便UITableView的开发'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,8 @@ TableViewModel方便UITableView的开发，便于UI修改迭代
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZJBTableViewModel/Classes/**/*'
+  # s.source_files = 'ZJBTableViewModel/Classes/**/*'
+  s.vendored_frameworks = "ZJBTableViewModel/FrameWork/ZJBTableViewModel.framework"
   
   # s.resource_bundles = {
   #   'ZJBTableViewModel' => ['ZJBTableViewModel/Assets/*.png']
