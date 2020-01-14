@@ -1,0 +1,22 @@
+{
+  "name": "ZJBTableViewModel",
+  "version": "0.3.0",
+  "summary": "TableViewModel方便UITableView的开发",
+  "description": "TableViewModel方便UITableView的开发，便于UI修改迭代",
+  "homepage": "https://github.com/jiabibi888/ZJBTableViewModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jabir": "zjb11934@ly.com"
+  },
+  "source": {
+    "git": "https://github.com/jiabibi888/ZJBTableViewModel.git",
+    "tag": "0.3.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": "ZJBTableViewModel/FrameWork/ZJBTableViewModel.framework"
+}
