@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZJBTableViewModel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZJBTableViewModel.'
+  s.summary          = 'TableViewModel方便UITableView的开发'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TableViewModel方便UITableView的开发，便于UI修改迭代
                        DESC
 
-  s.homepage         = 'https://github.com/Jabir/ZJBTableViewModel'
+  s.homepage         = 'https://github.com/jiabibi888/ZJBTableViewModel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jabir' => 'zjb11934@ly.com' }
-  s.source           = { :git => 'https://github.com/Jabir/ZJBTableViewModel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jiabibi888/ZJBTableViewModel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
