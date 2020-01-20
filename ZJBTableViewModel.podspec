@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJBTableViewModel'
-  s.version          = '0.1.0'
+  s.version          = '0.4.0'
   s.summary          = 'TableViewModel方便UITableView的开发'
 
 # This description is used to generate tags and improve search results.
